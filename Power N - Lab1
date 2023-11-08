@@ -1,0 +1,7 @@
+n = int(input("Enter the amount of iterations: "))
+count = 0
+
+while(count <= n):
+    result = 2**count
+    print(result)
+    count = count + 1
